@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="vazifa-1"/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-30 10:10:47 "/>
+        <attribute name="created" value="dXNlcjtIT01FLVBDOzIwMjYtMTAtMzA7IjA5OjQwOjM5ICI7MjEzMA=="/>
+        <attribute name="edited" value="dXNlcjtIT01FLVBDOzIwMjYtMTAtMzA7IjEwOjEwOjQ3ICI7NDsyMjI5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, i, c" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <assign variable="c" expression="0"/>
+            <for variable="i" start="1" end="n" direction="inc" step="1">
+                <assign variable="c" expression="i^2"/>
+                <output expression="c" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

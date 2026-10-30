@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="vazifa-1"/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-30 10:06:21 "/>
+        <attribute name="created" value="dXNlcjtIT01FLVBDOzIwMjYtMTAtMzA7IjA5OjQwOjM5ICI7MjEzMA=="/>
+        <attribute name="edited" value="dXNlcjtIT01FLVBDOzIwMjYtMTAtMzA7IjEwOjA2OjIxICI7MzsyMjI1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="1" end="15" direction="inc" step="1">
+                <if expression="i%2!=0">
+                    <then>
+                        <output expression="i" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="vazifa-9"/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-30 02:20:55 "/>
+        <attribute name="created" value="dXNlcjtIT01FLVBDOzIwMjYtMTAtMzA7IjAyOjE3OjQ5ICI7MjEyOA=="/>
+        <attribute name="edited" value="dXNlcjtIT01FLVBDOzIwMjYtMTAtMzA7IjAyOjIwOjU1ICI7MTsyMjI3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, ball, c" type="Integer" array="False" size=""/>
+            <assign variable="c" expression="0"/>
+            <for variable="a" start="1" end="5" direction="inc" step="1">
+                <input variable="ball"/>
+                <assign variable="c" expression="c+ball"/>
+            </for>
+            <output expression="c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

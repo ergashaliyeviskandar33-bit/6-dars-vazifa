@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="vazifa-9"/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-30 02:44:53 "/>
+        <attribute name="created" value="dXNlcjtIT01FLVBDOzIwMjYtMTAtMzA7IjAyOjE3OjQ5ICI7MjEyOA=="/>
+        <attribute name="edited" value="dXNlcjtIT01FLVBDOzIwMjYtMTAtMzA7IjAyOjQ0OjUzICI7NTsyMjM1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <while expression="a!=7">
+                <output expression="&quot;Sirli son topilmadi !&quot;" newline="True"/>
+                <input variable="a"/>
+            </while>
+            <output expression="&quot;Topdingiz !&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
